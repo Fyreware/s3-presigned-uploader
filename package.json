@@ -1,0 +1,26 @@
+{
+  "name": "s3-presigned-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ext .js,.ts,.tsx ./src/",
+    "build": "tsc ",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.1"
+  }
+}
